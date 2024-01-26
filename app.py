@@ -21,7 +21,7 @@ def check(email):
 def main():    
     st.set_page_config(page_title="AI newsletter", page_icon=":penguin:")
     st.title('Register for AI newsletter :penguin:')
-    st.subheader('Join waiting list to test out new AI products')
+    st.subheader('Join waiting list to try out new AI products')
 
     st.markdown("Demo by [Qiang Li](https://www.linkedin.com/in/qianglil/). All rights reserved.")
 
