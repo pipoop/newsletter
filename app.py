@@ -20,7 +20,10 @@ def check(email):
 
 def main():    
     st.set_page_config(page_title="AI newsletter", page_icon=":penguin:")
-    st.title('Register for AI newsletter')
+    st.title('Register for AI newsletter :penguin:')
+    st.subheader('Join waiting list to test out new AI products')
+
+    st.markdown("Demo by [Qiang Li](https://www.linkedin.com/in/qianglil/). All rights reserved.")
 
     # this markdown is for hiding "github" button
     st.markdown("<style>#MainMenu{visibility:hidden;}</style>", unsafe_allow_html=True)
